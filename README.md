@@ -7,10 +7,10 @@ An implementation of ROS subscriber publisher node using [ROS tutorial](http://w
 ## Pre-requisite
 The project requires ROS Neotic and catkin, and is developed on Ubuntu 20.04 LTS.
 
-To install ROS please follow the tutorial on: 
+- To install ROS please follow the tutorial on: 
 http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
 
-To install catkin please follow the tutorial on: 
+- To install catkin please follow the tutorial on: 
 http://wiki.ros.org/catkin?distro=indigo#Installing_catkin
 
 ## How to build
