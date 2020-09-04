@@ -5,7 +5,7 @@
 An implementation of ROS subscriber publisher node using [ROS tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 
 ## Pre-requisite
-The project requires ROS kinectic and catkin, and is developed on UBUNTU 16.04 LTS.
+The project requires ROS Neotic and catkin, and is developed on Ubuntu 20.04 LTS.
 
 To install ROS please follow the tutorial on: 
 http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
