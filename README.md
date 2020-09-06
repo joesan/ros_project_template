@@ -19,7 +19,7 @@ cd ~/catkin_ws/
 catkin_make
 source devel/setup.bash
 cd src/
-git clone -b Week10_HW --single-branch https://github.com/senthilarul/beginner_tutorials.git
+git clone --single-branch https://github.com/joesan/ros-face-tracker.git
 cd ..
 catkin_make
 ```
