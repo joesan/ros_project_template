@@ -19,10 +19,16 @@ cd ~/catkin_ws/
 catkin_make
 source devel/setup.bash
 cd src/
+```
+
+Checkout the source code for this project:
+
+```
 git clone https://github.com/joesan/ros-face-tracker.git
 cd ..
 catkin_make
 ```
+
 ## Running Demo without launch file
 To run the demo open a new terminal and type
 ```
