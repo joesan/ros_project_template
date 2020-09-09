@@ -5,14 +5,14 @@
 TODO: Documentation!
 
 ## Pre-requisite
-The project requires ROS Neotic and catkin, and is developed on Ubuntu 20.04 LTS.
+The project requires ROS Noetic and catkin, and is developed on Ubuntu 20.04 LTS.
 
 - To install ROS please follow the tutorials from [here](http://wiki.ros.org/action/fullsearch/ROS/Tutorials): 
 
 - To install catkin please follow the tutorials from [here](http://wiki.ros.org/catkin?distro=indigo#Installing_catkin)
 
 ## How to build
-Before building please ensure ROS kinetic and catkin are installed.  
+Before building please ensure ROS Noetic and catkin are installed.  
 ```
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
