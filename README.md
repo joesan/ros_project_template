@@ -63,20 +63,3 @@ roslaunch beginner_tutorials hw10.launch
 ```
 
 again utilize ctrl+C to stop program in each of the 2 terminal.
-
-## Modify default text using service
-To modify the default text run the demo either using the launch file as mentioned above (or you can run the demo without the launch file as explained above)
-
-After the demo starts open a new terminal and type
-```
-cd catkin_ws
-source devel/setup.bash
-rosservice call /modifyText <your string>
-```
-
-You will notice that the default text changes to the text you have entered.
-
-an example would be
-```
-rosservice call /modifyText ENPM808X
-```
