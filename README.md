@@ -4,6 +4,10 @@
 
 TODO: Documentation!
 
+The idea is to combine the Raspi Motion Detection that I did a few years ago and ROS to control the navigation of a small Robot that can traverse my living room and the kitchen! I will expand on the Raspi Motiion Detection to identify objects and use that as a signal to help geo-locate my Robot and thus successfully navigate it. The goal is that it should move without any hindrance without any pre-knowledge of the environment.
+
+Stay tuned for more!
+
 ## Pre-requisite
 The project requires ROS Noetic and catkin, and is developed on Ubuntu 20.04 LTS.
 
@@ -75,15 +79,4 @@ You will notice that the default text changes to the text you have entered.
 an example would be
 ```
 rosservice call /modifyText ENPM808X
-```
-
-## Change Loop frequency
-To modify the loop frequency open run the demo using launch file using the following command
-```
-roslaunch beginner_tutorials hw10.launch frequency:=<int value greater than 0>
-```
-
-an example would be
-```
-roslaunch beginner_tutorials hw10.launch frequency:=5
 ```
