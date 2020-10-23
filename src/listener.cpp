@@ -32,7 +32,7 @@
 
 /**
  * @file    listener.cpp
- * @author  Senthil Hariharan Arul
+ * @author  Joesan
  * @copyright 3-clause BSD
  * @brief A ROS subscriber
  * A ROS subscriber created from ROS listener/publisher tutorials
