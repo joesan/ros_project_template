@@ -32,7 +32,7 @@
 
 /**
  * @file    talker.cpp
- * @author  Senthil Hariharan Arul
+ * @author  Joesan
  * @copyright 3-clause BSD
  * @brief A ROS publisher
  * A ROS publisher created from ROS listener/publisher tutorials
