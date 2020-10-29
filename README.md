@@ -15,6 +15,8 @@ The project requires ROS Noetic and catkin, and is developed on Ubuntu 20.04 LTS
 
 - To install catkin please follow the tutorials from [here](http://wiki.ros.org/catkin?distro=indigo#Installing_catkin)
 
+- To install Gazebo to run the simulations, follow instructions from [here](http://gazebosim.org/tutorials?tut=install_ubuntu)
+
 ## How to build
 Before building please ensure ROS Noetic and catkin are installed.  
 ```
