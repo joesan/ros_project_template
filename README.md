@@ -26,8 +26,9 @@ catkin_make
 source devel/setup.bash
 cd src/
 ```
+Here I have named my workspace catkin_ws, but it could be anything of your choice!
 
-Checkout the source code for this project:
+Afetr you cd into the src folder of this newly created workspace, checkout the source code for this project:
 
 ```
 git clone https://github.com/joesan/ros-face-tracker.git
