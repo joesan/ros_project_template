@@ -14,7 +14,7 @@ You can either use CLion or VS Code or something else as your IDE, but I prefer 
 
 3. I usually prefer to have all my source code a header file that contains the copyright and license text. For this I'm using the [psionq file header](https://marketplace.visualstudio.com/items?itemName=psioniq.psi-header). Just install this extension. To configure this, you need to open the settings.json by navigating from File -> Preferences -> Settings and then follow as per the screenshot below.
 
-[Edit Settings](https://github.com/joesan/ros-navigator/blob/master/setup/images/edit-settings-json-1.png)
+![Edit Settings](https://github.com/joesan/ros-navigator/blob/master/setup/images/edit-settings-json-1.png)
 
 As a starter you can use this template from [here](https://github.com/joesan/ros-navigator/blob/master/setup/settings.json)
 
