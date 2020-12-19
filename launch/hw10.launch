@@ -1,11 +1,11 @@
 <launch>
     <env
         name="ROSCONSOLE_CONFIG_FILE"
-        value="$(find ros-navigator)/config/config.conf"
+        value="$(find ros_navigator)/config/config.conf"
     />
     <arg name = "frequency" default = "10" />
     <node
-        pkg = "ros-navigator"
+        pkg = "ros_navigator"
         type = "talker"
         name = "talker"
         output = "screen"
@@ -13,10 +13,9 @@
     />
     
     <node
-        pkg = "ros-navigator"
+        pkg = "ros_navigator"
         type = "listener"
         name = "listener"
         output = "screen"
-        launch-prefix = "gnome-terminal -e"
     />
 </launch>

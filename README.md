@@ -9,6 +9,7 @@ The idea is to combine the Raspi Motion Detection that I did a few years ago and
 Stay tuned for more!
 
 ## Pre-requisite
+
 The project requires ROS Noetic and catkin, and is developed on Ubuntu 20.04 LTS.
 
 - To install ROS please follow the tutorials from [here](http://wiki.ros.org/action/fullsearch/ROS/Tutorials): 
@@ -18,7 +19,9 @@ The project requires ROS Noetic and catkin, and is developed on Ubuntu 20.04 LTS
 - To install Gazebo to run the simulations, follow instructions from [here](http://gazebosim.org/tutorials?tut=install_ubuntu)
 
 ## How to build
+
 Before building please ensure ROS Noetic and catkin are installed.  
+
 ```
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
@@ -26,6 +29,7 @@ catkin_make
 source devel/setup.bash
 cd src/
 ```
+
 Here I have named my workspace catkin_ws, but it could be anything of your choice!
 
 Afetr you cd into the src folder of this newly created workspace, checkout the source code for this project:
@@ -37,6 +41,7 @@ catkin_make
 ```
 
 ## Running Demo without launch file
+
 To run the demo open a new terminal and type
 ```
 roscore
@@ -58,7 +63,9 @@ rosrun beginner_tutorials listener
 To stop the program press ctrl+C in each of the three terminals.
 
 ## Running Demo using launch file
+
 To run the demo using launch file type the following in a terminal
+
 ```
 cd catkin_ws
 source devel/setup.bash

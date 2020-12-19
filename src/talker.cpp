@@ -54,7 +54,7 @@
 // %EndTag(ROS_HEADER)%
 // %Tag(MSG_HEADER)%
 #include "std_msgs/String.h"
-#include "beginner_tutorials/modifyText.h"
+#include "ros_navigator/modifyText.h"
 
 /**
  * The default string for output which can be modified by user
@@ -67,8 +67,8 @@ std::string defaultMessage = "Default Message ";
  * @param  response   The response by the service to request
  * @return bool
  */
-bool modifyDefaultText(beginner_tutorials::modifyText::Request& request,
-beginner_tutorials::modifyText::Response& response) {
+bool modifyDefaultText(ros_navigator::modifyText::Request& request,
+ros_navigator::modifyText::Response& response) {
     defaultMessage = request.inputString;
     response.modifiedString = "The User modified default string to: " +
     request.inputString;

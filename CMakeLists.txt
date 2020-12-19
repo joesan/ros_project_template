@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(ros-navigator)
+project(ros_navigator)
 
 ## Use C++11 compiler
 add_compile_options(-std=c++11)

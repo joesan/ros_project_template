@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros-navigator</name>
+  <name>ros_navigator</name>
   <version>0.0.1</version>
-  <description>Face tracking and navigation using ROS & OpenCV</description>
+  <description>Face tracking and navigation using ROS and OpenCV</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer url="https://github.com/joesan">Joesan</maintainer>
+  <maintainer email="joesan@github.com">Joesan</maintainer>
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
@@ -22,7 +22,7 @@
   <!-- Author tags are optional, multiple are allowed, one per tag -->
   <!-- Authors do not have to be maintainers, but could be -->
   <!-- Example: -->
-  <author url="https://github.com/joesan">Joesan</author>
+  <author email="joesan@github.com">Joesan</author>
 
   <!-- The *_depend tags are used to specify dependencies -->
   <!-- Dependencies can be catkin packages or system dependencies -->
