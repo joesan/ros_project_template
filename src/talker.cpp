@@ -109,14 +109,10 @@ int main(int argc, char **argv) {
         ROS_WARN_STREAM("Setting Loop Frequency to default value of 10Hz");
         loopFreq = 10;
     }  else if (loopFreq == 0) {
-           ROS_FATAL_STREAM("Input Frequency set as 0 or a non-integer");
-           ROS_WARN_STREAM("Setting Loop Frequency to default value 10Hz");
-           loopFreq = 10;
+            ROS_FATAL_STREAM("Input Frequency set as 0 or a non-integer");
+            ROS_WARN_STREAM("Setting Loop Frequency to default value 10Hz");
+            loopFreq = 10;
     }
-
-
-
-
 
 // %Tag(NODEHANDLE)%
   ros::NodeHandle n;
@@ -191,7 +187,6 @@ int main(int argc, char **argv) {
 // %EndTag(RATE_SLEEP)%
     ++count;
   }
-
 
   return 0;
 }

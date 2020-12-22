@@ -1,7 +1,9 @@
 ## ROS command line utilities
 
-TO get the master URI:
 
-```
-echo $ROS_MASTER_URI
-```
+| Get the Master URI  	|echo $ROS_MASTER_URI|
+| Start Master node 	|roscore             |
+| List ROS Nodes    	|rosnode list        |
+| List ROS Services  	|rosservice list     |
+|   	                |   	             |
+|   	                |   	             |

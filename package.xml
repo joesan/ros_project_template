@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros_navigator</name>
+  <name>navo</name>
   <version>0.0.1</version>
   <description>Face tracking and navigation using ROS and OpenCV</description>
 

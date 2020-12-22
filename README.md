@@ -69,7 +69,7 @@ To run the demo using launch file type the following in a terminal
 ```
 cd catkin_ws
 source devel/setup.bash
-roslaunch beginner_tutorials hw10.launch
+roslaunch beginner_tutorials navo.launch
 ```
 
 again utilize ctrl+C to stop program in each of the 2 terminal.
