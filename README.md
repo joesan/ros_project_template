@@ -1,12 +1,7 @@
-# Face Tracker Application Using ROS & OpenCV
+# ROS Project Template
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ---
-
-TODO: Documentation!
-
-The idea is to combine the Raspi Motion Detection that I did a few years ago and ROS to control the navigation of a small Robot that can traverse my living room and the kitchen! I will expand on the Raspi Motiion Detection to identify objects and use that as a signal to help geo-locate my Robot and thus successfully navigate it. The goal is that it should move without any hindrance without any pre-knowledge of the environment.
-
-Stay tuned for more!
+There is nothing interesting in this project, other than the fact that it is just a bare bones template for ROS based projects.
 
 ## Pre-requisite
 
@@ -23,19 +18,19 @@ The project requires ROS Noetic and catkin, and is developed on Ubuntu 20.04 LTS
 Before building please ensure ROS Noetic and catkin are installed.  
 
 ```
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/
+mkdir -p ~/your_catkin_workspace/src
+cd ~/your_catkin_workspace/
 catkin_make
 source devel/setup.bash
 cd src/
 ```
 
-Here I have named my workspace catkin_ws, but it could be anything of your choice!
+You have to adapt to your catkin workspace name of your choice!
 
 Afetr you cd into the src folder of this newly created workspace, checkout the source code for this project:
 
 ```
-git clone https://github.com/joesan/ros-face-tracker.git
+git clone https://github.com/joesan/ros_project_template.git
 cd ..
 catkin_make
 ```
