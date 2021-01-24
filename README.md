@@ -3,6 +3,16 @@
 ---
 There is nothing interesting in this project, other than the fact that it is just a bare bones template for ROS based projects.
 
+## Documentation
+
+This README.md is organized using the DocToc npm plugin. Do the following steps to run the DocToc plugin against your set of README.md files:
+
+- Install Node if you do not have it yet
+
+- Install DocToc npm install -g doctoc
+
+- CD into your project root folder and run doctoc .
+
 ## Pre-requisite
 
 The project requires ROS Noetic and catkin, and is developed on Ubuntu 20.04 LTS.
