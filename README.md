@@ -10,11 +10,15 @@ This README.md is organized using the DocToc npm plugin. Do the following steps 
 - Install Node if you do not have it yet
 
 - Install DocToc 
-```npm install -g doctoc
+
+```
+npm install -g doctoc
 ```
 
 - CD into your project root folder and 
-```run doctoc .
+
+```
+run doctoc .
 ```
 
 ## Pre-requisite
